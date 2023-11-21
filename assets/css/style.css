@@ -35,8 +35,8 @@ h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
-  color: #fff;
+  background:rgb(133, 63, 46);
+  color: #eecc72;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -50,7 +50,7 @@ h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: #eecc72;
   transition: background 0.2s ease-in-out;
 }
 
@@ -159,20 +159,20 @@ h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #eecc72;
 }
 
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   text-decoration: none;
-  color: #f7ef8a;
+  color: #eecc72;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active > a i,
 .nav-menu li:hover > a i {
-  color: #fff;
+  color: #eecc72;
 }
 
 /* Mobile Navigation */
@@ -192,7 +192,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: #eecc72;
 }
 
 .mobile-nav-active {
@@ -294,18 +294,18 @@ section {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   position: relative;
-  color: #173b6c;
+  color: #4c231a;
 }
 
 .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 140px;
   height: 3px;
-  background: #149ddd;
+  background: #eecc72;
   bottom: 0;
   left: 0;
 }
@@ -313,6 +313,63 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+
+.section-title1 {
+  padding-bottom: 30px;
+}
+
+.section-title1 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #4c231a;
+}
+
+.section-title1 h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 180px;
+  height: 3px;
+  background: #eecc72;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title1 p {
+  margin-bottom: 0;
+}
+
+.section-title2 {
+  padding-bottom: 30px;
+}
+
+.section-title2 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #4c231a;
+}
+
+.section-title2 h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 122px;
+  height: 3px;
+  background: #eecc72;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title2 p {
+  margin-bottom: 0;
+}
+
 
 /*--------------------------------------------------------------
 # About
@@ -754,11 +811,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #eecc72;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: rgb(133, 63, 46);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -812,7 +869,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #eecc72;
   color: #fff;
 }
 
